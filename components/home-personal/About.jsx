@@ -36,7 +36,7 @@ function About() {
                   turning ideas into modern, high-performing web solutions.
                 </h4>
                 <p>
-                  With hands-on experience in both front-end and back-end technologies, I specialize in building scalable web apps, dynamic business websites, and custom CMS solutions. Whether it's a sleek React interface or a robust PHP/MySQL backend, I focus on performance, usability, and clean code. I've worked with clients locally and internationally, helping startups and businesses bring their vision to life through powerful digital experiences.
+                  With hands-on experience in both front-end and back-end technologies, I specialize in building scalable web apps, dynamic business websites, and custom CMS solutions. Whether it&apos;s a sleek React interface or a robust PHP/MySQL backend, I focus on performance, usability, and clean code. I&apos;ve worked with clients locally and internationally, helping startups and businesses bring their vision to life through powerful digital experiences.
                 </p>
 
                 <div className="numbers mt-50">

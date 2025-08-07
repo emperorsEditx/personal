@@ -52,7 +52,7 @@ function LoadingScreen() {
           <span>r</span>
           <span>o</span>
           <span>r</span>
-          <span>'</span>
+          <span>&apos;</span>
           <span>s</span>
           <span>E</span>
           <span>d</span>
