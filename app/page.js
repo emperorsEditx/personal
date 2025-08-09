@@ -20,10 +20,10 @@ import Skills from '@/components/home-personal/Skills';
 import Portfolio from '@/components/home-personal/Portfolio';
 
 export const metadata = {
-  title: 'webfolio',
+  title: 'emperor',
   icons: {
-    icon: '/assets/imgs/favicon.ico',
-    shortcut: '/assets/imgs/favicon.ico',
+    icon: '/assets/imgs/white-logo.png',
+    shortcut: '/assets/imgs/white-logo.png',
     other: generateStylesheetObject([
       '/assets/css/plugins.css',
       '/assets/css/style.css',

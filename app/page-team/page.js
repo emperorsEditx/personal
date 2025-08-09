@@ -13,7 +13,7 @@ import Header from '@/components/page-team/Header';
 import Intro from '@/components/page-team/Intro';
 
 export const metadata = {
-  title: 'webfolio',
+  title: 'emperor',
   icons: {
     icon: '/assets/imgs/favicon.ico',
     shortcut: '/assets/imgs/favicon.ico',

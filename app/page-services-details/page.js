@@ -13,7 +13,7 @@ import Feat from '@/components/page-services-details/Feat';
 import Intro2 from '@/components/home-digital-agency/Intro2';
 
 export const metadata = {
-  title: 'webfolio',
+  title: 'emperor',
   icons: {
     icon: '/assets/imgs/favicon.ico',
     shortcut: '/assets/imgs/favicon.ico',

@@ -14,7 +14,7 @@ import Wroks2 from '@/components/project-details/Wroks2';
 import Next from '@/components/project-details/Next';
 
 export const metadata = {
-  title: 'webfolio',
+  title: 'emperor',
   icons: {
     icon: '/assets/imgs/favicon.ico',
     shortcut: '/assets/imgs/favicon.ico',
