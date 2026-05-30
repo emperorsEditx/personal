@@ -2,10 +2,12 @@
 import loadBackgroudImages from '@/common/loadBackgroudImages';
 import React, { useEffect } from 'react';
 
-function Next() {
+function Next({ project }) {
   useEffect(() => {
     loadBackgroudImages();
   }, []);
+  const prevHref = project?.prevSlug ? `/project-details/${project.prevSlug}` : '/project-details/cutter-mobile-app';
+  const nextHref = project?.nextSlug ? `/project-details/${project.nextSlug}` : '/project-details/ai-dashboard-ui';
   return (
     <section className="next-project sub-bg">
       <div className="container-fluid rest">
@@ -13,7 +15,7 @@ function Next() {
           <div className="col-md-6 rest">
             <div
               className="text-left box bg-img"
-              data-background="/assets/imgs/works/3/1.jpg"
+              data-background={project?.heroImage || '/assets/imgs/works/3/1.jpg'}
             >
               <div className="cont d-flex align-items-center">
                 <div>
@@ -21,8 +23,8 @@ function Next() {
                 </div>
                 <div>
                   <h6 className="sub-title fz-16 mb-5">Prev Project</h6>
-                  <a href="/project-details" className="fz-40 fw-600 stroke">
-                    OPT Media Agency
+                  <a href={prevHref} className="fz-40 fw-600 stroke">
+                    {project?.prevTitle || 'OPT Media Agency'}
                   </a>
                 </div>
               </div>
@@ -31,14 +33,14 @@ function Next() {
           <div className="col-md-6 rest">
             <div
               className="text-right d-flex box bg-img"
-              data-background="/assets/imgs/works/3/2.jpg"
+              data-background={project?.gallery?.[0] || '/assets/imgs/works/3/2.jpg'}
             >
               <div className="ml-auto">
                 <div className="cont d-flex align-items-center">
                   <div>
                     <h6 className="sub-title fz-16 mb-5">Next Project</h6>
-                    <a href="/project-details" className="fz-40 fw-600 stroke">
-                      TH3 Web Design
+                    <a href={nextHref} className="fz-40 fw-600 stroke">
+                      {project?.nextTitle || 'TH3 Web Design'}
                     </a>
                   </div>
                   <div>

@@ -21,13 +21,13 @@ function Contact() {
 
               <div className="social-icon mt-50">
                 <a href="www.linkedin.com/in/muhammad-awais-mughal-emperor-editx">
-                  <i class="fab fa-linkedin"></i>
+                  <i className="fab fa-linkedin"></i>
                 </a>
                 <a href="https://web.facebook.com/profile.php?id=61578940463458">
-                  <i class="fab fa-facebook"></i>
+                  <i className="fab fa-facebook"></i>
                 </a>
                 <a href="https://github.com/emperorsEditx">
-                  <i class="fab fa-github"></i>
+                  <i className="fab fa-github"></i>
                 </a>
                 <a href="https://www.instagram.com/emperors_editx/">
                   <i className="fab fa-instagram"></i>

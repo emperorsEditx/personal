@@ -55,17 +55,17 @@ function Footer() {
               <ul className="rest social-icon d-flex align-items-center">
                 <li className="hover-this cursor-pointer">
                   <a href="www.linkedin.com/in/muhammad-awais-mughal-emperor-editx" className="hover-anim">
-                    <i class="fab fa-linkedin"></i>
+                    <i className="fab fa-linkedin"></i>
                   </a>
                 </li>
                 <li className="hover-this cursor-pointer ml-10">
                   <a href="https://web.facebook.com/profile.php?id=61578940463458" className="hover-anim">
-                    <i class="fab fa-facebook"></i>
+                    <i className="fab fa-facebook"></i>
                   </a>
                 </li>
                 <li className="hover-this cursor-pointer ml-10">
                   <a href="https://github.com/emperorsEditx" className="hover-anim">
-                    <i class="fab fa-github"></i>
+                    <i className="fab fa-github"></i>
                   </a>
                 </li>
                 <li className="hover-this cursor-pointer ml-10">
